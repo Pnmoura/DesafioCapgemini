@@ -1,0 +1,31 @@
+public class EscadaCapgemini
+{
+	
+	public static void escada(int n)
+	{
+		int i, j;
+
+		//loop referente ao numero de linhas
+	
+		for(i=0; i<n; i++)
+		{
+
+			//Colunas
+			for(j=0; j<=i; j++)
+			{
+				
+				System.out.print("* ");
+			}
+
+			//quebra de linha
+			System.out.println();
+		}
+}
+
+	
+	public static void main(String args[])
+	{
+		int n = 6;
+		escada(n);
+	}
+}
