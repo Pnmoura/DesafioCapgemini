@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Criação de senha</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <script src="./Js/validacao.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container-login">
+            <div class="wrap-login">
+                <form class="login-form">
+                    <span class="login-form-title">
+						Crie sua nova senha
+					</span>
+
+                    <div class="wrap-input margin-top-35 margin-bottom-35">
+                        <input class="input-form" type="password" name="senha" id="senhaForca" onkeyup="validaSenha()">
+                        <span class="focus-input-form" data-placeholder="Senha"></span>
+                    </div>
+
+                    <div class="wrap-input margin-bottom-35">
+                        <input class="input-form" type="password" name="password">
+                        <span class="focus-input-form" data-placeholder="Repita a senha"></span>
+                    </div>
+                    <!--BOTÕES-->
+                    <div class="container-login-form-btn">
+                        <button class="login-form-btn">
+							Criar
+						</button>
+                    </div>
+                    <br>
+                    <div class="container-login-form-btn">
+                        <button class="login-form-btn">
+							Esqueci a senha
+						</button>
+                    </div>
+
+                    </ul>
+                </form>
+            </div>
+        </div>
+
+</body>
+
+</html>
